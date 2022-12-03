@@ -909,7 +909,7 @@ section
 .become_title h1
 {
 	display: block;
-	color: #1a1a1a;
+	color: #000000;
 	font-weight: 500;
 	padding-top: 24px;
 }
@@ -927,7 +927,7 @@ section
 .become_text
 {
 	font-weight: 500;
-	color: #a5a5a1;
+	color: #000000;
 	margin-top: 48px;
 	margin-bottom: 0px;
 }

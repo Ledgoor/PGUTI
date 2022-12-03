@@ -851,8 +851,8 @@ section
 
 .page_section
 {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .section_title
 {
@@ -917,7 +917,7 @@ section
 }
 .course_boxes
 {
-	margin-top: 68px;
+	margin-top: 50px;
 }
 .card
 {
@@ -1054,84 +1054,68 @@ section
 }
 
 /*********************************
-11. Search
+11. Become
 *********************************/
 
-.search_section
-{
+.become {
 	width: 100%;
-	height: 100%;
-	background: #ececec;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
-.search_content
-{
-	width: 522px;
+
+.become_boxes {margin-bottom: 50px;}
+
+.become_title h1 {
+	text-align: center;
+	display: block;
+	color: #000000;
+	font-weight: 500;
+	padding-top: 24px;
 }
-.search_background
-{
+
+.become_title h1::before {
+	display: block;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	opacity: 0.23;
-}
-.search_title
-{
-	color: #1a1a1a;
+	width: 55px;
+	height: 4px;
+	content: '';
 }
 
-/*********************************
-11.1 Search Form
-*********************************/
-
-.search_form
-{
-	margin-top: 57px;
-}
-.input_field
-{
-	width: 100%;
-	height: 42px;
-	background: #FFFFFF;
-	box-sizing: border-box;
-	border: solid 2px #FFFFFF;
-	padding-left: 25px;
-	margin-bottom: 24px;
-}
-input:last-of-type
-{
+.become_text {
+	text-indent: 10%;
+	font-weight: 500;
+	color: #000000;
 	margin-bottom: 0px;
 }
-.input_field:focus
-{
-	outline: none !important;
-	border: solid 2px #ffb606;
-}
-.search_submit_button
-{
-	width: 100%;
-	height: 48px;
+
+.become_button {
+	width: 188px;
+	height: 53px;
 	background: #ffb606;
-	color: #FFFFFF;
-	font-size: 14px;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin-top: 28px;
-	border: none;
-	cursor: pointer;
+	margin-top: 37px;
 }
-.search_submit_button:hover
-{
+
+.become_button a {
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFFFFF;
+	line-height: 53px;
+}
+
+.become_button:hover {
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
 }
-.search_submit_button:focus
-{
-	outline: solid 2px #FFFFFF;
+
+.become_image {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
 }
+
+.become_image img {width: 50%;}
 
 /*********************************
 12. Services
