@@ -247,8 +247,5 @@
 
 @media only screen and (max-width: 400px) {
 	.menu_item a {font-size: 12px;}
-
-	.menu_mm {
-		padding-bottom: 7px;
-	}
+	.menu_mm {padding-bottom: 7px;}
 }
