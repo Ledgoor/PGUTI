@@ -267,8 +267,7 @@ section
 3. Header
 *********************************/
 
-.header
-{
+.header {
 	position: fixed;
 	top: 45px;
 	left: 50%;
@@ -280,6 +279,7 @@ section
 	width: 1318px;
 	height: 104px;
 	background: #FFFFFF;
+	border-radius: 15px;
 	z-index: 10;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -287,21 +287,19 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.header.scrolled
-{	
+
+.header.scrolled {	
 	top: 15px;
+	background-color: rgb(255, 255, 255, .85);
 }
-.header.scrolled .header_content::before
-{
+
+.header.scrolled .header_content::before {
 	box-shadow: 0px 20px 49px rgba(0,0,0,0.17);
 }
-.header_content
-{
-	width: calc(100% - 279px);
-	height: 100%;
-}
-.header_content::before
-{
+
+.header_content {width: 100%; height: 100%;}
+
+.header_content::before {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -309,29 +307,27 @@ section
 	width: 100%;
 	height: 100%;
 	content: '';
-	box-shadow: 0px 20px 49px rgba(0,0,0,0.67);
 	z-index: -1;
+	border-radius: 15px;
 }
 
 /*********************************
 3.1 Logo
 *********************************/
 
-.logo_container
-{
-	display: inline-block;
-	padding-left: 76px;
-}
-.logo span
-{
+.logo_container {display: inline-block; padding-left: 76px;}
+.logo span {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	font-weight: 900;
-	color: #3a3a3a;
+	color: #111111;
 	vertical-align: middle;
 	text-transform: uppercase;
 	margin-left: 3px;
+	margin-right: 20px;
 }
+
+.logo img {width: 50px;}
 
 /*********************************
 3.2 Main Nav
