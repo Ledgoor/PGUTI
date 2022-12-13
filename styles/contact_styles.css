@@ -917,3 +917,30 @@ section
 .footer_social .menu_social_item a i:hover {color: #ffb606;}
 
 .footer_social .menu_social_item:last-child {margin-right: 0px;}
+
+
+.table {
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.col1 {width: 50px; text-align: center;}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+	vertical-align: middle;
+}
+.table tbody tr:nth-child(odd) {
+	background: #fff;
+}
+.table tbody tr:nth-child(even) {
+	background: #F7F7F7;
+}
