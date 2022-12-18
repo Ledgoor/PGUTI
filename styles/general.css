@@ -12,9 +12,10 @@
 4. Menu
 	4.1 Menu Social
 	4.2 Menu copyright
-5. Footer
-	5.1 Footer Content
-	5.2 Footer Copyright
+5. Buttons
+6. Footer
+	6.1 Footer Content
+	6.2 Footer Copyright
 
 *********************************/
 
@@ -479,14 +480,29 @@ section {
 }
 
 /*********************************
-5. Footer
+5. Buttons
+*********************************/
+
+.button {cursor: pointer;}
+.button:hover {box-shadow: 0px 10px 20px rgba(0,0,0,0.2);}
+.button a {
+	font-size: 14px;
+	line-height: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.button_1 {width: 202px; height: 48px;}
+
+/*********************************
+6. Footer
 *********************************/
 
 .footer {width: 100%; padding-top: 86px; background: #1a1a1a;}
 .footer .section_title h1 {color: #FFFFFF;}
 
 /*********************************
-5.1 Footer Content
+6.1 Footer Content
 *********************************/
 
 .footer_content {
@@ -537,7 +553,7 @@ section {
 .footer_contact_icon img {width: 100%;}
 
 /*********************************
-5.2 Footer Copyright
+6.2 Footer Copyright
 *********************************/
 
 .footer_bar {padding-top: 19px; padding-bottom: 19px;}
