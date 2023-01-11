@@ -131,7 +131,7 @@
 *********************************/
 
 .about_title {font-size: 36px; font-weight: 500; color: #1a1a1a;}
-.about_text {margin-top: 20px;}
+.about_text {margin-top: 20px; color: #1a1a1a;}
 .contact_info {margin-top: 64px; padding-left: 46px;}
 .contact_info_item {
 	font-size: 14px;
