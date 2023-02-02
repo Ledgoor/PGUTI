@@ -1,0 +1,160 @@
+/******************************
+
+[Table of Contents]
+
+1. Student
+2. Page Section
+3. Student info
+4. About
+5. Google map
+
+******************************/
+
+/*********************************
+1. Student
+*********************************/
+
+.student {width: 100%; height: 447px;}
+.student_background_container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.student_background {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.student_content {
+	position: absolute;
+	left: 50%;
+	bottom: 109px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: #ffb606;
+	padding-top: 24px;
+	padding-bottom: 18px;
+	padding-left: 39px;
+	padding-right: 42px;
+}
+
+.student_content h1 {
+	font-size: 72px;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 0.5;
+	white-space: nowrap;
+}
+
+/*********************************
+2. Page Section
+*********************************/
+
+.page_section {padding-top: 50px; padding-bottom: 50px;}
+
+.section_title {}
+.section_title h1 {
+	display: block;
+	color: #1a1a1a;
+	font-weight: 500;
+	padding-top: 24px;
+}
+
+.section_title h1::before {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 55px;
+	height: 4px;
+	content: '';
+	background: #ffb606;
+}
+
+/*********************************
+3. Student info
+*********************************/
+
+.student-info {padding-top: 106px; padding-bottom: 117px;}
+.student-info_text {font-size: 18px; font-weight: 500; color: #1a1a1a;}
+.contact_form_container {margin-top: 70px;}
+.input_field {
+	width: 100%;
+	background: #f8f4f4;
+	border: solid 2px transparent;
+	margin-bottom: 24px;
+	height: 42px;
+	padding-left: 33px;
+}
+
+.input_field:focus {outline: none !important; border-color: #ffb606;}
+.text_field {
+	width: 100%;
+	height: 189px;
+	background: #f8f4f4;
+	border: solid 2px transparent;
+	padding-left: 33px;
+	margin-bottom: 24px;
+}
+
+.text_field:focus {outline: none !important; border-color: #ffb606;}
+.contact_send_btn {
+	width: 100%;
+	height: 48px;
+	background: #ffb606;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: none;
+}
+
+.contact_send_btn:focus {outline: solid 1px #ffb606; border: green !important;}
+
+/*********************************
+4. About
+*********************************/
+
+.about_title {font-size: 36px; font-weight: 500; color: #1a1a1a;}
+.about_text {margin-top: 20px; color: #1a1a1a;}
+.contact_info {margin-top: 64px; padding-left: 46px;}
+.contact_info_item {
+	font-size: 14px;
+	font-weight: 400;
+	color: #a5a5a5;
+	margin-bottom: 22px;
+}
+
+.contact_info_item:last-child {margin-bottom: 0px;}
+.contact_info_icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.contact_info_icon img {width: 100%;}
+
+/*********************************
+5. Google Map
+*********************************/
+
+#google_map {width: 100%; height: 532px; margin-top: 117px;}
+.map_container {width: 100%; height: 100%; overflow: hidden;}
+#map {width: 100%; height: calc(100% + 30px);}

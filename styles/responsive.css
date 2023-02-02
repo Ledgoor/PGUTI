@@ -203,6 +203,14 @@
 	    padding-right: 24px;
 	}
 	.home_content h1 {font-size: 30px;}
+	.student {height: 259px;}
+	.student_content {
+		padding-top: 17px;
+	    padding-bottom: 11px;
+	    padding-left: 22px;
+	    padding-right: 24px;
+	}
+	.student_content h1 {font-size: 30px;}
 	.contact_info {padding-left: 0px;}
 	#google_map {height: calc((100vw - 30px) / 2.08);}
 	.card-title {margin-top: 30px;}
