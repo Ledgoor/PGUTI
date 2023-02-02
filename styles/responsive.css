@@ -107,6 +107,7 @@
 	.icon_box {margin-bottom: 60px;}
 	.icon_box:last-child {margin-bottom: 0px;}
 	.about {margin-top: 80px;}
+	.educational-content {margin-top: 80px;}
 	#google_map {height: 331px;}
 	.hero_slide_content h1 {font-size: 48px;}
 	.hero_boxes {width: 100%; height: auto; padding-top: 117px;}
@@ -211,6 +212,19 @@
 	    padding-right: 24px;
 	}
 	.student_content h1 {font-size: 30px;}
+
+	.educational {height: 259px;}
+	.educational_content {
+		left: 50%;
+		bottom: 60px;
+		padding-top: 17px;
+	    padding-bottom: 11px;
+	    padding-left: 22px;
+	    padding-right: 24px;
+	}
+	.educational_content h1 {font-size: 18px; line-height: 1;}
+	.educational-info {padding-top: 0px; padding-bottom: 37px;}
+
 	.contact_info {padding-left: 0px;}
 	#google_map {height: calc((100vw - 30px) / 2.08);}
 	.card-title {margin-top: 30px;}
